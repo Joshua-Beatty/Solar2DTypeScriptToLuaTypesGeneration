@@ -1,0 +1,20 @@
+{
+  "name": "typescripttoluasolar2dtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "npm run build && node --enable-source-maps lib/index.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.15.12",
+    "esbuild-node-externals": "^1.5.0",
+    "read-text-file": "^1.1.0",
+    "readdir": "^1.0.2",
+    "rimraf": "^3.0.2",
+    "write": "^2.0.0"
+  }
+}

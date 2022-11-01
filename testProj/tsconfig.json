@@ -1,0 +1,10 @@
+{
+    // Optional: Schema file for hints and validation
+    "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  
+    // ... tsconfig options
+  
+    "tstl": {
+      // Custom options
+    }
+  }
